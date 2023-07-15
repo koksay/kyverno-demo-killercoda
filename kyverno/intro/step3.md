@@ -6,7 +6,7 @@ Checkout the deployment, which uses a private docker registry:
 batcat nginx-deployment.yaml
 ```{{exec}}
 
-Apply it and see it stays with ErrPullImage:
+Apply it and see it stays with `ErrImagePull`:
 
 ```bash
 k apply -f nginx-deployment.yaml
